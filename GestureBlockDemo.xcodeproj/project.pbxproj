@@ -16,6 +16,7 @@
 		8EA292AC1CC479E5008F744B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA292AA1CC479E5008F744B /* LaunchScreen.storyboard */; };
 		8EA292B71CC479E5008F744B /* GestureBlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA292B61CC479E5008F744B /* GestureBlockDemoTests.m */; };
 		8EA292C21CC479E6008F744B /* GestureBlockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA292C11CC479E6008F744B /* GestureBlockDemoUITests.m */; };
+		8EA292D11CC47A01008F744B /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA292D01CC47A01008F744B /* UIGestureRecognizer+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8EA292BD1CC479E6008F744B /* GestureBlockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureBlockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA292C11CC479E6008F744B /* GestureBlockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureBlockDemoUITests.m; sourceTree = "<group>"; };
 		8EA292C31CC479E6008F744B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA292CF1CC47A01008F744B /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
+		8EA292D01CC47A01008F744B /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				8EA2929D1CC479E5008F744B /* AppDelegate.m */,
 				8EA2929F1CC479E5008F744B /* ViewController.h */,
 				8EA292A01CC479E5008F744B /* ViewController.m */,
+				8EA292CF1CC47A01008F744B /* UIGestureRecognizer+Block.h */,
+				8EA292D01CC47A01008F744B /* UIGestureRecognizer+Block.m */,
 				8EA292A21CC479E5008F744B /* Main.storyboard */,
 				8EA292A81CC479E5008F744B /* Assets.xcassets */,
 				8EA292AA1CC479E5008F744B /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 				8EA292A11CC479E5008F744B /* ViewController.m in Sources */,
 				8EA2929E1CC479E5008F744B /* AppDelegate.m in Sources */,
 				8EA2929B1CC479E5008F744B /* main.m in Sources */,
+				8EA292D11CC47A01008F744B /* UIGestureRecognizer+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

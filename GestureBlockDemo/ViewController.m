@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIGestureRecognizer+Block.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view addGestureRecognizer:[UITapGestureRecognizer hj_gestureRecognizerWithActionBlock:^(UIGestureRecognizer *gesture) {
+        NSLog(@"tap me......");
+    }]];
+    
+    [self.view addGestureRecognizer:[UILongPressGestureRecognizer hj_gestureRecognizerWithActionBlock:^(UIGestureRecognizer *gesture) {
+        NSLog(@"Long press......");
+    }]];
 }
 
 - (void)didReceiveMemoryWarning {
